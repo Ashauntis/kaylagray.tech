@@ -1,0 +1,92 @@
+* {
+    margin: 10px;
+  }
+  
+  body {
+      font-family: 'Zilla Slab', serif;
+      font-weight: 300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Karla', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  #karla * {
+    font-family: 'Karla', sans-serif;
+    text-align: left;
+    display: block;
+  }
+  
+  #zilla * {
+    font-family: 'Zilla Slab', serif;
+    text-align: left;
+    display: block;
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+  
+  .container {
+    // display: flex;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .content {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .colorone, .colortwo, .colorthree, .colorfour {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 35px;
+    border: 1px solid black;
+    border-radius: 2%;
+    height: 100px;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .colorone {
+    background-color: #5F6368;
+    color: white;
+  }
+  
+  .colortwo {
+    background-color: #989BA4;
+    color: white;
+  }
+  
+  .colorthree {
+    background-color: #B2DEDD;
+  }
+  
+  .colorfour {
+    background-color: #F0EDE6;
+  }
+  
+  .fonts {
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+  }
